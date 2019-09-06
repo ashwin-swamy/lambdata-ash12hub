@@ -14,7 +14,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="lambdata-ash12hub",
-    version="0.0.3",
+    version="0.0.4",
     author="ashwin-swamy",
     description="A collection of Data Science helper functions",
     long_description=LONG_DESCRIPTION,
