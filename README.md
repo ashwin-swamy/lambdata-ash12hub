@@ -8,6 +8,8 @@ The `lambdata_ash12hub` directory contains some basic Data Science methods.
 
 ## Methods
 The Methods included in the directory are:
+
+### train_validation_test_split
 ```python
 lambdata_ash12hub.train_validation_test_split(x, y, train_size=0.8, val_size=0.1, test_size=0.1, random_state=None, shuffle=True)
 ```
@@ -45,13 +47,13 @@ The method returns:
 | `y_val` | The validation data of the y dataset. |
 | `y_test` | The testing datasets of the y dataset. |
 
-
+### split_date_list
 ```python
 lambdata_ash12hub.split_date_list(date_list)
 ```
 Splits a list of dates into day, month and year.
 
-The method takes in the following parameters:
+The method takes in the following parameter:
 - Required
 
   | Parameter | Description |
@@ -69,12 +71,13 @@ The method returns:
 | `month` | List of months from `date_list`. |
 | `year` | List of years from `date_list`. |
 
+### add_new_column
 ```python
-lambdata_ash12hub.  add_new_column(new_list)
+lambdata_ash12hub.add_new_column(new_list)
 ```
+Prepares a list to be a new column for a dataset.
 
-
-The method takes in the following parameters:
+The method takes in the following parameter:
 - Required
 
 | Parameter | Description |
