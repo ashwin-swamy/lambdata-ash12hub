@@ -106,4 +106,4 @@ venv.bak/
 # local settings
 .vscode
 
-..DS_Store
+.DS_Store
